@@ -1,19 +1,60 @@
-@import "common.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* font-family: proxima-soft, sans-serif; */
+    font-family: Quicksand, sans-serif;
+
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1vw;
+
+    color: var(--color-font);
+
+    --color-background: hsl(320, 8%, 8%);
+
+    --color-font: hsl(320, 10%, 50%);
+    --color-font-hover: hsl(320, 10%, 70%);
+
+    --color-primary: hsl(320, 8%, 12%);
+    --color-primary-hover: hsl(320, 8%, 15%);
+
+    --color-accent: hsl(320, 8%, 20%);
+    --color-accent-hover: hsl(320, 8%, 30%);
+
+    --header-height: 7em;
+}
+
+body {
+    background-color: var(--color-background);
+}
 
 img.logo {
     display: block;
     margin-inline: auto;
-    width: 20em;
+    width: 25em;
+    max-width: 90vw;
+}
+
+.full-screen {
+    height: calc(100vh - var(--header-height));
 }
 
 .links {
-    height: 10em;
-    width: 50em;
+    margin-top: 1%;
+
+    height: 25%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .about {
-    height: 10em;
-    width: 50em;
+    background-color: green;
 }
 
 .header {
@@ -21,14 +62,50 @@ img.logo {
     top: 0;
 
     width: 100vw;
-    height: fit-content;
+    height: var(--header-height);
 
     background-color: var(--color-background);
 }
 
 h1.title {
     text-align: center;
-    padding-block: 0.5em;
-    margin-bottom: 0.25em;
+    padding-top: 0.5em;
     font-size: 3em;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a.link {
+    display: inline-block;
+
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 0.75em;
+    
+    border: 2px solid var(--color-accent);
+    background-color: var(--color-primary);
+
+    width: 10em;
+    text-align: center;
+
+    text-decoration: none;
+
+    transition: all 0.5s;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a.link:hover {
+    color: var(--color-font-hover);
+    border-color: var(--color-accent-hover);
+    background-color: var(--color-primary-hover);
+}
+
+h2.subtitle {
+    width: fit-content;
+    background-color: red;
 }
