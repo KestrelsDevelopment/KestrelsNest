@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    /* font-family: Quicksand, sans-serif; */
+    font-family: proxima-soft, sans-serif;
+
+    font-weight: 700;
+    font-style: normal;
+
+    color: var(--color-font);
+
+    --color-background: hsl(320, 8%, 8%);
+    --color-font: hsl(320, 10%, 50%);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
