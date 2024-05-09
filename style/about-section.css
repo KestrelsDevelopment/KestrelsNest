@@ -6,16 +6,20 @@
     align-items: center;
 }
 
-img.image {
+img.about-image {
     width: 20%;
     max-width: 100%;
 }
 
-.text {
+.about-text {
     padding-left: 2em;
     width: 30%;
 }
 
 .paragraph {
     margin-block: 0.5em;
+}
+
+img.about-image-small {
+    display: none;
 }

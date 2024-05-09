@@ -21,4 +21,19 @@
         height: unset;
     }
 
+    .about-text {
+        width: 90%;
+    }
+
+    img.about-image {
+        display: none;
+    }
+
+    img.about-image-small {
+        display: block;
+        margin-top: 1em;
+        margin-inline: auto;
+        width: 50%;
+    }
+
 }
