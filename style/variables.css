@@ -1,0 +1,14 @@
+* {
+    --color-background: hsl(320, 8%, 8%);
+
+    --color-font: hsl(320, 10%, 50%);
+    --color-font-hover: hsl(320, 10%, 70%);
+
+    --color-primary: hsl(320, 8%, 12%);
+    --color-primary-hover: hsl(320, 8%, 15%);
+
+    --color-accent: hsl(320, 8%, 20%);
+    --color-accent-hover: hsl(320, 8%, 30%);
+
+    --header-height: 7em;
+}

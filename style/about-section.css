@@ -1,0 +1,21 @@
+.about {
+    margin-top: 5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.image {
+    width: 20%;
+    max-width: 100%;
+}
+
+.text {
+    padding-left: 2em;
+    width: 30%;
+}
+
+.paragraph {
+    margin-block: 0.5em;
+}
