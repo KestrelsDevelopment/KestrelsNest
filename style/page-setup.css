@@ -20,8 +20,3 @@ body {
     background-color: var(--color-background);
     overflow-x: hidden;
 }
-
-.row {
-    display: flex;
-    flex-direction: row;
-}
