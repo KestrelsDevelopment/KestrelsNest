@@ -1,0 +1,15 @@
+.topbar {
+    position: sticky;
+    top: 0;
+
+    width: 100vw;
+    height: var(--header-height);
+
+    background-color: var(--color-background);
+}
+
+h1.title {
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 3em;
+}
