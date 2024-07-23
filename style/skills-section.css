@@ -12,12 +12,14 @@
     gap: 2em;
 }
 
+.skills-section-title {
+    font-size: 2em; 
+    text-align: center;
+}
+
 .skill-panel {
     width: 10em;
     height: 10em;
-    
-    /*border: 2px solid var(--color-accent);*/
-    /*border-radius:  0.75em;*/
     
     display: flex;
     flex-direction: column;
@@ -28,6 +30,7 @@
 .skill-img {
     height: 75%;
     margin-inline: auto;
+    border-radius:  0.75em;
 }
 
 .skill-title {
