@@ -1,8 +1,8 @@
 * {
     --color-background: hsl(320, 8%, 8%);
 
-    --color-font: hsl(320, 10%, 50%);
-    --color-font-hover: hsl(320, 10%, 70%);
+    --color-font: hsl(320, 10%, 70%);
+    --color-font-hover: hsl(320, 10%, 90%);
 
     --color-primary: hsl(320, 8%, 12%);
     --color-primary-hover: hsl(320, 8%, 15%);

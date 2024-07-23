@@ -1,11 +1,11 @@
-.header {
-    height: calc(100vh - var(--header-height));
+.links-section {
+    /*height: calc(100vh - var(--header-height));*/
 }
 
 img.logo {
     display: block;
     margin-inline: auto;
-    width: 25em;
+    width: 15em;
     max-width: 90vw;
 }
 
@@ -31,12 +31,12 @@ a.link {
     border: 2px solid var(--color-accent);
     background-color: var(--color-primary);
 
-    width: 10em;
+    width: 8em;
     text-align: center;
 
     text-decoration: none;
 
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 a.link:hover {
