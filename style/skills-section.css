@@ -1,0 +1,39 @@
+﻿.skills-section {
+    padding-top: 5em;
+    width: 80vw;
+    margin-inline: auto;
+}
+
+.skills {
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.skill-panel {
+    width: 10em;
+    height: 10em;
+    
+    /*border: 2px solid var(--color-accent);*/
+    /*border-radius:  0.75em;*/
+    
+    display: flex;
+    flex-direction: column;
+    
+    text-decoration: none;
+}
+
+.skill-img {
+    height: 75%;
+    margin-inline: auto;
+}
+
+.skill-title {
+    text-align: center;
+    margin-block: auto;
+    font-size: 1.1em;
+    
+    max-width: 90%;
+}

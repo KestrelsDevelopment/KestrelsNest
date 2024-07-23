@@ -3,6 +3,7 @@
 @import "links-section.css";
 @import "page-setup.css";
 @import "about-section.css";
+@import "skills-section.css";
 
 h2.subtitle {
     font-size: 2em;
