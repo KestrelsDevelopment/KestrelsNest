@@ -1,12 +1,16 @@
 * {
-    --color-background: hsl(320, 8%, 8%);
+    --color-base: hsl(320, 55%, 60%);
+    
+    --color-background: hsl(290, 20%, 8%);
 
-    --color-font: hsl(320, 10%, 70%);
-    --color-font-hover: hsl(320, 10%, 90%);
+    --color-font: hsl(320, 30%, 80%);
+    --color-font-hover: hsl(320, 20%, 8%);
 
-    --color-primary: hsl(320, 8%, 12%);
-    --color-primary-hover: hsl(320, 8%, 15%);
+    --color-primary: hsl(290, 25%, 15%);
+    --color-primary-hover: hsl(320, 55%, 60%);
 
-    --color-accent: hsl(320, 8%, 20%);
-    --color-accent-hover: hsl(320, 8%, 30%);
+    --color-accent: hsl(290, 20%, 10%);
+    
+    --color-scrollbar-track: transparent;
+    --color-scrollbar-thumb: var(--color-primary);
 }

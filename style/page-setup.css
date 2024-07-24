@@ -24,3 +24,22 @@ body {
     background-color: var(--color-background);
     overflow-x: hidden;
 }
+
+@supports selector(::-webkit-scrollbar) {
+    *::-webkit-scrollbar {
+        width: 8px;
+        background-color: var(--color-scrollbar-track);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--color-scrollbar-thumb);
+        border-radius: 4px;
+    }
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    *{
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
+    }    
+}
