@@ -15,4 +15,13 @@ h2.subtitle {
     border-top: 2px solid var(--color-accent);
 
     height: 5em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: var(--color-font-dark);
+    font-size: 0.75em;
 }

@@ -7,10 +7,10 @@
 }
 
 img.about-image {
-    width: 20%;
+    width: 20em;
     max-width: 100%;
     
-    border-radius: 10px;
+    border-radius: .75em;
 }
 
 .about-text {
@@ -25,5 +25,5 @@ img.about-image {
 img.about-image-small {
     display: none;
     
-    border-radius: 10px;
+    border-radius: .75em;
 }

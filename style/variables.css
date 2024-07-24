@@ -5,11 +5,13 @@
 
     --color-font: hsl(320, 30%, 80%);
     --color-font-hover: hsl(320, 20%, 8%);
+    --color-font-dark: hsl(320, 10%, 35%);
 
     --color-primary: hsl(290, 25%, 15%);
     --color-primary-hover: hsl(320, 55%, 60%);
 
     --color-accent: hsl(290, 20%, 10%);
+    --color-accent-hover: hsl(290, 20%, 12%);
     
     --color-scrollbar-track: transparent;
     --color-scrollbar-thumb: var(--color-primary);

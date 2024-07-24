@@ -28,6 +28,16 @@
     align-items: center;
     
     text-decoration: none;
+    
+    background-color: var(--color-accent);
+    border-radius:  0.75em;
+    padding-top: 1em;
+    
+    transition: all 0.3s;
+}
+
+.skill-panel:hover {
+    background-color: var(--color-accent-hover);
 }
 
 .skill-img {
@@ -41,4 +51,5 @@
     font-size: 1.1em;
     
     max-width: 90%;
+    padding-block: 0.5em;
 }
