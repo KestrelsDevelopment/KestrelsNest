@@ -3,13 +3,15 @@
     top: 0;
 
     width: 100vw;
-    height: var(--header-height);
+    height: 5em;
 
     background-color: var(--color-background);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1.title {
-    text-align: center;
-    padding-top: 0.5em;
     font-size: 3em;
 }

@@ -7,11 +7,11 @@ img.logo {
     margin-inline: auto;
     width: 15em;
     max-width: 90vw;
+    
+    padding-block: 5em;
 }
 
 .links {
-    margin-top: 1%;
-    
     height: 25%;
     
     display: flex;
