@@ -20,8 +20,14 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <title>Kestrel's Nest</title>
+    
+    <script>
+        function showContent() {
+            document.getElementById('hidden-container').classList.remove('hidden');
+        }
+    </script>
 </head>
-<body>
+<body onscroll="showContent()">
 
 <div class="topbar">
     <h1 class="title">
@@ -29,11 +35,11 @@
     </h1>
 </div>
 
-<div class="links-section">
+<div id="links" class="links-section">
 
     <img src="assets/logo.png" alt="" class="logo">
 
-    <div id="links" class="links">
+    <div class="links">
 
         <a class="link" href="https://discord.kestrelsnest.eu" target="_blank">
             Discord
@@ -51,9 +57,19 @@
             DarkCube
         </a>
 
+        <a class="link" href="#about">
+            About me
+        </a>
+
+        <a class="link" href="#skills">
+            My Skills
+        </a>
+
     </div>
 
 </div>
+
+<div id="hidden-container" class="hidden">
 
 <div id="about" class="about">
 
@@ -84,7 +100,7 @@
 
 <img src="assets/kes.jpg" alt="" class="about-image-small">
 
-<div class="skills-section">
+<div id="skills" class="skills-section">
     <h2 class="skills-section-title">
         My Skills
     </h2>
@@ -146,6 +162,9 @@
 <div class="footer">
     <p class="copyright">© 2024 AceOfKestrels </p>
 </div>
+
+</div>
+
 
 </body>
 </html>

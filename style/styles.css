@@ -25,3 +25,11 @@ h2.subtitle {
     color: var(--color-font-dark);
     font-size: 0.75em;
 }
+
+#hidden-container {
+    transition: opacity 1.5s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+}
