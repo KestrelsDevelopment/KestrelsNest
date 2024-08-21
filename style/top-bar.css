@@ -3,13 +3,21 @@
     top: 0;
 
     width: 100vw;
-    height: 5em;
+    height: 8em;
 
     background-color: var(--color-background);
     
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    transition: height 0.3s;
+}
+
+.topbar-scrolled {
+    height: 5em;
+    transition: height 1s;
+    border-bottom: 2px solid var(--color-accent-hover);
 }
 
 h1.title {

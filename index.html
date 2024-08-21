@@ -24,12 +24,17 @@
     <script>
         function showContent() {
             document.getElementById('hidden-container').classList.remove('hidden');
+            document.getElementById('topbar').classList.add('topbar-scrolled');
+            
+            if(document.documentElement.scrollTop === 0) {
+                document.getElementById('topbar').classList.remove('topbar-scrolled');
+            }
         }
     </script>
 </head>
 <body onscroll="showContent()">
 
-<div class="topbar">
+<div id="topbar" class="topbar">
     <h1 class="title">
         Kestrel's Nest
     </h1>
@@ -83,7 +88,7 @@
 
         <p class="paragraph">
             Hello there, I'm Kessandra, also known as AceOfKestrels. My pronouns are she/her. I am 22 years old and live
-            in a small town in Germany and I'm currently doing an apprenticeship in software development.
+            in a small town in Germany, and I'm currently doing an apprenticeship in software development.
         </p>
         <p class="paragraph">
             I've been into programming and other computer related things for quite some time. I enjoy gaming and being

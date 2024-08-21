@@ -12,13 +12,13 @@ img.logo {
 }
 
 .links {
-    height: 25%;
+    width: 40%;
+    margin-inline: auto;
     
     display: flex;
     flex-wrap: wrap;
     
     justify-content: center;
-    align-items: center;
 }
 
 a.link {
