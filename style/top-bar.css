@@ -4,6 +4,7 @@
 
     width: 100vw;
     height: 8em;
+    opacity: 100%;
 
     background-color: var(--color-background);
     
@@ -11,13 +12,14 @@
     justify-content: center;
     align-items: center;
     
-    transition: height 0.3s;
+    transition: height 0.3s, opacity 0.3s;
 }
 
 .topbar-scrolled {
     height: 5em;
     transition: height 1s;
     border-bottom: 2px solid var(--color-secondary-hover);
+    opacity: 90%;
 }
 
 h1.title {
