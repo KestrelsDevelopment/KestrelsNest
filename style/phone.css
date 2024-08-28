@@ -3,7 +3,7 @@
     * {
         font-size: 1em;
     }
-    
+
     img.logo {
         width: 10em;
     }
@@ -14,7 +14,7 @@
 
     .links {
         margin-top: 2em;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .full-screen {

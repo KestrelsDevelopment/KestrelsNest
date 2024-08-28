@@ -9,7 +9,7 @@
 img.about-image {
     width: 20em;
     max-width: 100%;
-    
+
     border-radius: .75em;
 }
 
@@ -24,6 +24,6 @@ img.about-image {
 
 img.about-image-small {
     display: none;
-    
+
     border-radius: .75em;
 }

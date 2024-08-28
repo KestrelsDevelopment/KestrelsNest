@@ -11,10 +11,9 @@ function showContent() {
 const documentEl = document.documentElement.clientHeight ? document.documentElement : document.body;
 
 function resizeTopbar() {
-    if(documentEl.scrollTop === 0) {
+    if (documentEl.scrollTop === 0) {
         document.getElementById('topbar').classList.remove('topbar-scrolled');
-    }
-    else {
+    } else {
         document.getElementById('topbar').classList.add('topbar-scrolled');
     }
 }

@@ -15,10 +15,10 @@ img.logo {
 .links {
     width: 40%;
     margin-inline: auto;
-    
+
     display: flex;
     flex-wrap: wrap;
-    
+
     justify-content: center;
 }
 
@@ -28,7 +28,7 @@ a.link {
     padding-block: 1em;
     margin: 0.5em;
     border-radius: 0.75em;
-    
+
     /*border: 2px solid var(--color-accent);*/
     background-color: var(--color-primary);
 

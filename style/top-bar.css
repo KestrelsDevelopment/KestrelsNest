@@ -7,11 +7,11 @@
     opacity: 100%;
 
     background-color: var(--color-background);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     transition: height 0.3s, opacity 0.3s;
 }
 

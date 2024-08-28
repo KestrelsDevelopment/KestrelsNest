@@ -38,8 +38,8 @@ body {
 }
 
 @supports not selector(::-webkit-scrollbar) {
-    *{
+    * {
         scrollbar-width: thin;
         scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
-    }    
+    }
 }
