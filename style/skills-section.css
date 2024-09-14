@@ -1,6 +1,6 @@
 ﻿.skills-section {
     padding-top: 5em;
-    width: 80vw;
+    width: 50vw;
     margin-inline: auto;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .skill-panel {
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 8em;
     
     display: flex;
     flex-direction: column;
@@ -41,9 +41,9 @@
 }
 
 .skill-img {
-    height: 75%;
+    height: 60%;
     margin-inline: auto;
-    border-radius:  0.75em;
+    border-radius:  0.5em;
 }
 
 .skill-title {
