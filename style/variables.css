@@ -1,17 +1,15 @@
 * {
-    --color-base: hsl(320, 55%, 60%);
-    
-    --color-background: hsl(290, 20%, 8%);
+    --color-background: hsl(290, 20%, 4%);
 
     --color-font: hsl(320, 30%, 80%);
-    --color-font-hover: hsl(320, 20%, 8%);
+    --color-font-hover: var(--color-background);
     --color-font-dark: hsl(320, 10%, 35%);
 
-    --color-primary: hsl(290, 25%, 15%);
-    --color-primary-hover: hsl(320, 55%, 60%);
-
-    --color-accent: hsl(290, 20%, 10%);
-    --color-accent-hover: hsl(290, 20%, 12%);
+    --color-primary: hsl(290, 20%, 10%);
+    --color-primary-hover: hsl(320, 30%, 60%);
+    
+    --color-secondary: hsl(290, 20%, 8%);
+    --color-secondary-hover: var(--color-primary);
     
     --color-scrollbar-track: transparent;
     --color-scrollbar-thumb: var(--color-primary);

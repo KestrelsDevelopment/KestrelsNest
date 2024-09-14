@@ -12,7 +12,7 @@ h2.subtitle {
 
 .footer {
     margin-top: 5em;
-    border-top: 2px solid var(--color-accent-hover);
+    border-top: 2px solid var(--color-secondary);
 
     height: 5em;
     

@@ -29,7 +29,7 @@
     
     text-decoration: none;
     
-    background-color: var(--color-accent);
+    background-color: var(--color-secondary);
     border-radius:  0.75em;
     padding-top: 1em;
     
@@ -37,7 +37,7 @@
 }
 
 .skill-panel:hover {
-    background-color: var(--color-accent-hover);
+    background-color: var(--color-secondary-hover);
 }
 
 .skill-img {

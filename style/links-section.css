@@ -5,10 +5,11 @@
 img.logo {
     display: block;
     margin-inline: auto;
-    width: 15em;
+    width: 12em;
     max-width: 90vw;
-    
-    padding-block: 5em;
+
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 
 .links {
@@ -41,6 +42,6 @@ a.link {
 
 a.link:hover {
     color: var(--color-font-hover);
-    border-color: var(--color-accent-hover);
+    border-color: var(--color-secondary-hover);
     background-color: var(--color-primary-hover);
 }
