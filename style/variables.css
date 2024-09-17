@@ -1,7 +1,7 @@
 * {
     --color-background: hsl(290, 20%, 4%);
 
-    --color-font: hsl(320, 30%, 80%);
+    --color-font: hsl(320, 20%, 85%);
     --color-font-hover: var(--color-background);
     --color-font-dark: hsl(320, 10%, 35%);
 
