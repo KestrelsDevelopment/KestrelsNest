@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kestrel's Wiki</title>
+
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/variables.css">
+    <link rel="stylesheet" href="/global/style/font.css">
+
+    <script src="https://unpkg.com/htmx.org@2.0.3"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/d9094755fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="__layout" class="layout">
+    <header class="header">
+        <h1>Kestrel's Wiki</h1>
+    </header>
+    <aside class="sidebar left-sidebar">
+        <button class="sidebar-toggle" id="__toggle-left-button" onclick="toggleSidebarLeft()">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+    </aside>
+    <main class="content"
+          hx-get="/api/file/development/languages/golang/ent/ent"
+          hx-trigger="load"
+          hx-target="#__content-container"
+          hx-swap="innerHTML">
+        <div id="__content-container"></div>
+    </main>
+    <aside class="sidebar right-sidebar">
+        <button class="sidebar-toggle" id="__toggle-right-button" onclick="toggleSidebarRight()">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+    </aside>
+    <footer class="footer"></footer>
+</div>
+</body>
+</html>

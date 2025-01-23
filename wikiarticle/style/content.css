@@ -1,0 +1,37 @@
+.content {
+    grid-area: content;
+    padding: 25px;
+    background-color: var(--color-content-background);
+    border-radius: var(--border-radius);
+}
+
+#__content-container code, #__content-container code * {
+    font-family: monospace;
+}
+
+#__content-container pre {
+    background-color: var(--color-background);
+    padding: 0.5em;
+    border-radius: var(--border-radius);
+    margin-top: 0.5lh;
+    margin-bottom: 1lh;
+}
+
+#__content-container p code {
+    background-color: var(--color-background);
+    padding: 0.35em;
+    border-radius: var(--border-radius);
+}
+
+#__content-container h1 {
+    font-size: 2em;
+    margin-bottom: 0.75em;
+}
+
+#__content-container h2, #__content-container h3 {
+    margin-top: 1em;
+}
+
+#__content-container p {
+    margin-top: 0.5em;
+}
