@@ -5,6 +5,14 @@
 @import "about-section.css";
 @import "skills-section.css";
 
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url(/global/font/Quicksand.woff2) format('woff2');
+}
+
 h2.subtitle {
     font-size: 2em;
     padding-bottom: 0.5em;
