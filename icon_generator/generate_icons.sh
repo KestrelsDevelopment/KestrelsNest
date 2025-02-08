@@ -12,7 +12,10 @@ FA_ATTRIBUTION="/*!
 */
 "
 
+LOAD_OTHER_SCRIPTS="[\"/global/js/fontawesome/fontawesome.js\",\"/global/js/fontawesome/solid.js\"].forEach(t=>{let a=document.createElement(\"script\");a.src=t,a.async=!1,document.head.appendChild(a)});"
+
 echo "$FA_ATTRIBUTION" > "$OUTPUT_FILE_NAME"
+echo "$LOAD_OTHER_SCRIPTS" >> "$OUTPUT_FILE_NAME"
 echo "const icons = {" >> "$OUTPUT_FILE_NAME"
 
 while IFS= read -r line; do
