@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kestrel's Wiki</title>
 
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/variables.css">
+    <link rel="stylesheet" href="/wikiarticle/style/main.css">
+    <link rel="stylesheet" href="/wikiarticle/style/variables.css">
+    <link rel="stylesheet" href="/wikiarticle/style/content.css">
+    <link rel="stylesheet" href="/wikiarticle/style/header.css">
+    <link rel="stylesheet" href="/wikiarticle/style/sidebar.css">
 
     <script defer src="js/script.js"></script>
     <script src="/global/js/htmx.min.js"></script>
@@ -22,11 +25,7 @@
             <i class="fa-solid fa-bars-staggered"></i>
         </button>
     </aside>
-    <main class="content"
-          hx-get="/api/file/development/languages/golang/ent/ent"
-          hx-trigger="load"
-          hx-target="#__content-container"
-          hx-swap="innerHTML">
+    <main class="content" >
         <div id="__content-container"></div>
     </main>
     <aside class="sidebar right-sidebar">
