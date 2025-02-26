@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="style/phone.css">
+    <link rel="stylesheet" href="/global/style/global-style.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/global/favicon/apple-touch-icon.png">
@@ -17,6 +18,7 @@
     <title>Kestrel's Nest</title>
 
     <script src="js/scroll.js"></script>
+    <script src="/global/js/fetchImage.js"></script>
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kestrelsnest.gg/">
@@ -36,7 +38,7 @@
 
 <div id="links" class="links-section">
 
-    <img src="assets/logo.webp" alt="A stylized owl face design in lavender color, featuring elongated eyes and a symmetrical, abstract form." class="logo">
+    <img data-src="assets/logo.webp" alt="A stylized owl face design in lavender color, featuring elongated eyes and a symmetrical, abstract form." class="logo">
 
     <div class="links">
 
@@ -72,7 +74,7 @@
 
     <div id="about" class="about">
 
-        <img src="assets/kes.webp" alt="An anime girl with long orange hair and a green hoodie." class="about-image">
+        <img data-src="assets/kes.webp" alt="An anime girl with long orange hair and a green hoodie." class="about-image">
 
         <div class="about-text">
 
@@ -100,7 +102,7 @@
 
     </div>
 
-    <img src="assets/kes.webp" alt="An anime girl with long orange hair and a green hoodie." class="about-image-small">
+    <img data-src="assets/kes.webp" alt="An anime girl with long orange hair and a green hoodie." class="about-image-small">
 
     <div id="skills" class="skills-section">
         <h2 class="skills-section-title">
@@ -110,59 +112,59 @@
         <div class="skills">
 
             <a class="skill-panel" href="https://git-scm.com/" target="_blank">
-                <img src="assets/skills/git.webp" alt="The git logo." class="skill-img">
+                <img data-src="assets/skills/git.webp" alt="The git logo." class="skill-img">
                 <p class="skill-title">Git</p>
             </a>
             <a class="skill-panel" href="https://www.linux.org/" target="_blank">
-                <img src="assets/skills/linux.webp" alt="Tux, the Linux mascot." class="skill-img">
+                <img data-src="assets/skills/linux.webp" alt="Tux, the Linux mascot." class="skill-img">
                 <p class="skill-title">Linux</p>
             </a>
             <a class="skill-panel" href="https://www.gnu.org/software/bash/" target="_blank">
-                <img src="assets/skills/bash.webp" alt="The bash logo." class="skill-img">
+                <img data-src="assets/skills/bash.webp" alt="The bash logo." class="skill-img">
                 <p class="skill-title">Bash</p>
             </a>
             <a class="skill-panel" href="https://dotnet.microsoft.com/en-us/download" target="_blank">
-                <img src="assets/skills/dotnet.webp" alt="The .NET logo." class="skill-img">
+                <img data-src="assets/skills/dotnet.webp" alt="The .NET logo." class="skill-img">
                 <p class="skill-title">.NET Core</p>
             </a>
             <a class="skill-panel" href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-                <img src="assets/skills/csharp.webp" alt="The C# logo." class="skill-img">
+                <img data-src="assets/skills/csharp.webp" alt="The C# logo." class="skill-img">
                 <p class="skill-title">C#</p>
             </a>
             <a class="skill-panel" href="https://docs.discordnet.dev/index.html" target="_blank">
-                <img src="assets/skills/discord-dotnet.webp" alt="The Discord.NET logo." class="skill-img">
+                <img data-src="assets/skills/discord-dotnet.webp" alt="The Discord.NET logo." class="skill-img">
                 <p class="skill-title">Discord.NET</p>
             </a>
             <a class="skill-panel" href="https://go.dev/" target="_blank">
-                <img src="assets/skills/go.webp" alt="The Go logo." class="skill-img">
+                <img data-src="assets/skills/go.webp" alt="The Go logo." class="skill-img">
                 <p class="skill-title">Go</p>
             </a>
             <a class="skill-panel" href="https://www.javascript.com/" target="_blank">
-                <img src="assets/skills/javascript.webp" alt="The JavaScript logo." class="skill-img">
+                <img data-src="assets/skills/javascript.webp" alt="The JavaScript logo." class="skill-img">
                 <p class="skill-title">JavaScript</p>
             </a>
             <a class="skill-panel" href="https://www.typescriptlang.org/" target="_blank">
-                <img src="assets/skills/typescript.webp" alt="The TypeScript logo." class="skill-img">
+                <img data-src="assets/skills/typescript.webp" alt="The TypeScript logo." class="skill-img">
                 <p class="skill-title">TypeScript</p>
             </a>
             <a class="skill-panel" href="https://angular.dev/" target="_blank">
-                <img src="assets/skills/angular.webp" alt="The Angular logo." class="skill-img">
+                <img data-src="assets/skills/angular.webp" alt="The Angular logo." class="skill-img">
                 <p class="skill-title">Angular</p>
             </a>
             <a class="skill-panel" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <img src="assets/skills/html.webp" alt="The HTML logo." class="skill-img">
+                <img data-src="assets/skills/html.webp" alt="The HTML logo." class="skill-img">
                 <p class="skill-title">HTML</p>
             </a>
             <a class="skill-panel" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="assets/skills/css.webp" alt="The CSS logo." class="skill-img">
+                <img data-src="assets/skills/css.webp" alt="The CSS logo." class="skill-img">
                 <p class="skill-title">CSS</p>
             </a>
             <a class="skill-panel" href="https://www.java.com/" target="_blank">
-                <img src="assets/skills/java.webp" alt="The Java logo." class="skill-img">
+                <img data-src="assets/skills/java.webp" alt="The Java logo." class="skill-img">
                 <p class="skill-title">Java</p>
             </a>
             <a class="skill-panel" href="https://cplusplus.com/" target="_blank">
-                <img src="assets/skills/cplusplus.webp" alt="The C++ logo." class="skill-img">
+                <img data-src="assets/skills/cplusplus.webp" alt="The C++ logo." class="skill-img">
                 <p class="skill-title">C++</p>
             </a>
 
