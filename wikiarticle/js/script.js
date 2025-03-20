@@ -22,12 +22,12 @@ function loadArticle() {
                 window.location.href = this.headers.get("location");
                 break;
             default: 
-                window.location.href = "/error?code=" + this.status;
+                //window.location.href = "/error?code=" + this.status;
                 break;
         }
     }
     const articlePath = window.location.pathname.substring("/wiki".length);
-    request.open("GET", "/api/article/" + articlePath, true);
+    request.open("GET", "/api/wiki/article" + articlePath, true);
     request.send();
 }
 
