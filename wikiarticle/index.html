@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kestrel's Wiki</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kestrel's Wiki</title>
 
-    <link rel="stylesheet" href="/wikiarticle/style/main.css">
-    <link rel="stylesheet" href="/wikiarticle/style/variables.css">
-    <link rel="stylesheet" href="/wikiarticle/style/content.css">
-    <link rel="stylesheet" href="/wikiarticle/style/header.css">
-    <link rel="stylesheet" href="/wikiarticle/style/sidebar.css">
+        <link rel="stylesheet" href="/wikiarticle/style/main.css" />
+        <link rel="stylesheet" href="/wikiarticle/style/variables.css" />
+        <link rel="stylesheet" href="/wikiarticle/style/content.css" />
+        <link rel="stylesheet" href="/wikiarticle/style/header.css" />
+        <link rel="stylesheet" href="/wikiarticle/style/sidebar.css" />
 
-    <script defer src="/wikiarticle/js/script.js"></script>
-    <script src="/global/js/htmx.min.js"></script>
-    <script defer src="/global/js/fontawesome/icons.js"></script>
-</head>
-<body>
-<div id="__layout" class="layout">
-    <header class="header">
-        <h1>Kestrel's Wiki</h1>
-    </header>
-    <aside class="sidebar left-sidebar">
-        <button class="sidebar-toggle" id="__toggle-left-button" onclick="toggleSidebarLeft()">
-            <i class="fa-solid fa-bars-staggered"></i>
-        </button>
-    </aside>
-    <main class="content" >
-        <div id="__content-container"></div>
-    </main>
-    <aside class="sidebar right-sidebar">
-        <button class="sidebar-toggle" id="__toggle-right-button" onclick="toggleSidebarRight()">
-            <i class="fa-solid fa-bars-staggered"></i>
-        </button>
-    </aside>
-    <footer class="footer"></footer>
-</div>
-</body>
+        <link rel="stylesheet" href="/global/style/global-style.css" />
+
+        <script defer src="/wikiarticle/js/navigation.js"></script>
+        <script defer src="/wikiarticle/js/loadArticle.js"></script>
+        <script defer src="/global/js/fontawesome/icons.js"></script>
+    </head>
+    <body>
+        <div id="__layout" class="layout">
+            <header class="header">
+                <h1>Kestrel's Wiki</h1>
+                <button onclick="onWikiNavigate">Nav</button>
+            </header>
+            <aside class="sidebar left-sidebar"></aside>
+            <main class="content">
+                <div id="__content-container"></div>
+            </main>
+            <aside class="sidebar right-sidebar"></aside>
+            <footer class="footer"></footer>
+        </div>
+    </body>
 </html>
